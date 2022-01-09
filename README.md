@@ -10,5 +10,5 @@ $ python run.py
 > jangan lupa kasih bintang
 
 # Ikuti saya di
-<b>-<[Facebook](https://www.facebook.com/faizal.asshadily)><b>
-<c>-<[Youtube](https://www.youtube.com/channel/UCEg3T9hyhlkDkTPf_kGo4ow)><c>
+<b>==~ <[Facebook](https://www.facebook.com/faizal.asshadily)<b>
+<c>==~ [Youtube](https://www.youtube.com/channel/UCEg3T9hyhlkDkTPf_kGo4ow)<c>
