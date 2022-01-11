@@ -1,4 +1,3 @@
-# Yang mau recode tolol gakmau belajar dulu cobain tulis sendiri bangsadd!!!
 # fungsi cek
 # use: python kalkulator.py
 # Guah masih enuub anjimm
@@ -7,13 +6,21 @@ import time
 def pil():
   print("[1]. perkalian")
   print("[2]. perjumlahan")
-  print("[3]. kembali")
+  print("[3]. pembagian")
+  print("[4]. pengurangan")
+  print("[5]. kembali")
 # perkalian
 def kali():
   n1=int(input("Angka "))
   n2=int(input("Dikali "))
   kal=n1*n2
   print(n1, "x", n2, "= ", kal)
+  time.sleep(2.1)
+def bagi():
+  n1=int(input("Angka "))
+  n2=int(input("Dibagi "))
+  kal=n1/n2
+  print(n1, ":", n2, "= ", kal)
   time.sleep(2.1)
 # Pertambahan
 def tambah():
@@ -22,12 +29,18 @@ def tambah():
   kal=n1+n2
   print(n1, "+", n2, "= ", kal)
   time.sleep(2.1)
+def kurang():
+  n1=int(input("Angka "))
+  n2=int(input("Dikurang "))
+  kal=n1-n2
+  print(n1, "-", n2, "= ", kal)
+  time.sleep(2.1)
 def loads():
   nama=input("Nama Kamu :> .. ")
   print("Welcome ", nama)
   print("Loading...")
   time.sleep(2.1)
-def salah():
+def salah(): # Supaya kalo milih lebih dari lima gak error cuk
   menu()
 # Eksekusi anjim!!!!!
 def menu():
@@ -39,8 +52,19 @@ def menu():
   elif(Q=="2"):
     tambah()
     salah()
-  elif(Q=='3'): 
-    print("Thanks for use")
+  elif(Q=="3"):
+    bagi()
+    salah()
+  elif(Q=="4"):
+    kurang()
+    salah()
+  elif(Q=='5'):
+    kontol='''
+    =---------------------------------|
+    |||== Thanks For Use ==|||>>> :)  |
+    =---------------------------------|
+    '''
+    print(kontol)
     time.sleep(3.1)
   else:salah()
 # Manggil
