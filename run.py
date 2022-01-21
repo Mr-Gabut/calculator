@@ -1,7 +1,10 @@
 # fungsi cek
 # use: python kalkulator.py
 # Guah masih enuub anjimm
-import time
+import os,sys,time
+
+time.sleep(2)
+os.system('clear')
 # Pilihan buat pemakai
 def pil():
   print("[1]. perkalian")
